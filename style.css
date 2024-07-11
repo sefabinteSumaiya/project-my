@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fluid-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 4%;
+
+}
+.half-width p{
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 30px;
+    border-radius: 7px;
+}
+.color{
+    color: #AB1E48;
+    font-size: 35px;
+   
+
+   
+}
+.button{
+    text-decoration: none;
+    color:aliceblue;
+    background-image: linear-gradient(orangered,maroon );
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(233, 219, 23),#AB1E48);
+    color: m;
+}
+.top{
+    background-image: url(picture/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.dream{
+    background-image: url(picture/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg{
+    background-image: url(picture/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.box1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 10px orangered;
+    border-radius: 15px;
+    border-right: 5px solid maroon;
+    transition: 2s;
+}
+.box1:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(#FFFF00,orangered);
+
+}
+.h2-width{
+
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+
+}
+.img{
+    border-radius: 15%;
+}
+.myskills{
+    padding: 4%;
+    font-size: 30px;
+}
+.demo{
+    font-size:30px ;
+}
